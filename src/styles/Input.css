@@ -1,0 +1,38 @@
+.input {
+  height: 50px;
+  width: 80%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none !important;
+  outline-width: 0 !important;
+  background-color: white;
+}
+
+.input:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+}
+
+input {
+  outline: none !important;
+  outline-width: 0 !important;
+  background: none;
+  border: none;
+  margin-left: 12px;
+  flex: 1;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100px;
+}
